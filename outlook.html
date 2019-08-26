@@ -12,7 +12,7 @@
                 style="box-sizing: border-box; padding: 0px 0px 5px; width: 480px; color: rgb(23, 147, 210);"><span
                     ng-if="showField('title')" class="ng-binding ng-scope"
                     style="box-sizing: border-box; font-family: &quot;Lucida Console&quot;, monospace; font-size: 11pt;">Grad
-                    Student at Physics &amp; Rust Developer</span></td>
+                    Student at Physics &amp; Rustacean </span></td>
         </tr>
         <tr style="box-sizing: border-box;">
             <td colspan="2"
@@ -55,10 +55,18 @@
                                     style="box-sizing: border-box; font-family: &quot;Lucida Console&quot;, monospace; font-size: 9pt;">Yonsei
                                     University 50 Yonsei-ro, Seodaemun-gu, Seoul 03722, Republic of Korea</span></td>
                         </tr>
-                        <tr ng-if="isAnyFieldEntered('facebookURL,linkedinURL,twitterURL,gplusURL,youtubeURL,instagramURL')"
+                        <tr ng-if="isAnyFieldEntered('githubURL,facebookURL,linkedinURL,twitterURL,gplusURL,youtubeURL,instagramURL')"
                             class="ng-scope" style="box-sizing: border-box;">
                             <td style="box-sizing: border-box; padding: 2px 0px 0px 1px;"><span
                                     style="box-sizing: border-box; display: inline-block; height: 23px;"><span
+                                        ng-if="showField('githubURL')" class="ng-scope"
+                                        style="box-sizing: border-box;"><a
+                                            href="https://github.com/Axect" target="_blank"
+                                            style="box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183); text-decoration: none;"><img
+                                                alt="Github icon" border="0" width="23" height="23"
+                                                ng-src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                                                src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                                                style="box-sizing: border-box; border: 0px; vertical-align: middle; height: 23px; width: 23px;" /></a>&nbsp;&nbsp;</span><span
                                         ng-if="showField('facebookURL')" class="ng-scope"
                                         style="box-sizing: border-box;"><a href="https://www.facebook.com/edeftg"
                                             target="_blank"
@@ -74,14 +82,6 @@
                                                 alt="LinkedIn icon" border="0" width="23" height="23"
                                                 ng-src="https://codetwocdn.azureedge.net/images/mail-signatures/generator/compact-logo/ln.png"
                                                 src="https://codetwocdn.azureedge.net/images/mail-signatures/generator/compact-logo/ln.png"
-                                                style="box-sizing: border-box; border: 0px; vertical-align: middle; height: 23px; width: 23px;" /></a>&nbsp;&nbsp;</span><span
-                                        ng-if="showField('linkedinURL')" class="ng-scope"
-                                        style="box-sizing: border-box;"><a
-                                            href="https://github.com/Axect" target="_blank"
-                                            style="box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183); text-decoration: none;"><img
-                                                alt="Github icon" border="0" width="23" height="23"
-                                                ng-src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-                                                src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
                                                 style="box-sizing: border-box; border: 0px; vertical-align: middle; height: 23px; width: 23px;" /></a>&nbsp;&nbsp;</span></span>
                             </td>
                         </tr>
